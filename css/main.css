@@ -1,0 +1,47 @@
+
+
+/* Utility */
+.grid-container.fluid.no-padding { 
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+	Header
+*/
+.top-contact-bar-outer-container {
+	border-bottom: 3px solid #EEE;
+}
+
+.header-main-inner-container {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/* main header navication */
+.header-navigation-container a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+.header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a {
+	color: black;
+}
+
+.header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+	border-color: black transparent transparent;
+}
+
+/* main header quote button */
+.header-quote-btn-container .quote-button {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 0.75rem;
+	padding: 0.75rem;
+	text-align: center;
+	width: 10rem;
+	float: right;
+}
