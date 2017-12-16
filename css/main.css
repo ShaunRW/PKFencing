@@ -58,3 +58,21 @@
 
 	color: white;
 }
+
+
+/* Why choose us body content */
+.why-choose-us {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.why-choose-us h1 {
+	color: red;
+	font-weight: bold;
+}
+.why-choose-us li {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #EEE;
+}
