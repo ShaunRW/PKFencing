@@ -9,6 +9,14 @@
 /*
 	Header
 */
+.top-contact-bar-outer-container .contact-bar {
+	font-size: 1.5rem;
+	color:#95969e;
+}
+.top-contact-bar-outer-container .contact-bar span {
+	font-weight: bold;
+}
+
 .top-contact-bar-outer-container {
 	border-bottom: 3px solid #EEE;
 }
@@ -47,6 +55,8 @@
 }
 
 
+
+
 /* Footer */
 .footer-outer-container {
 	background-color: #4e525d;
@@ -65,14 +75,33 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-.why-choose-us h1 {
+.why-choose-us h2 {
 	color: red;
 	font-weight: bold;
 }
+
+.why-choose-us ul {
+}
+
 .why-choose-us li {
 	font-size: 1.5rem;
 	font-weight: bold;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #EEE;
+
+	
 }
+
+.why-choose-us li span.fa {
+	color: red;
+	vertical-align: middle;
+}
+
+.why-choose-us li span.text {
+	font-family: arial;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-left: 1rem;
+}
+

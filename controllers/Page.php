@@ -5,9 +5,7 @@
 		public function BuildViewData( $InputData )
 		{
 			$model = new Model_Page();
-			$model->PageTitle = $this->RequestData( $InputData, "page", "home" );
-			
-			$model->HelloInputData['Name'] = "Jeffy";
+			$model->Page = $this->RequestData( $InputData, "page", "home" );
 
 			return $model;
 		}

@@ -2,7 +2,7 @@
 
 	class Model_Page
 	{
-		public $PageTitle;
+		public $Page;
 	}
 
 ?>
