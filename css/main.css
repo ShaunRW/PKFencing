@@ -40,6 +40,22 @@
 .header-navigation-container > ul > li > a {
 	height: 6em;
 	padding-top: 20.75%;
+	line-height: 4.6em;
+
+}
+.header-navigation-container > ul > li > a:hover,
+.header-navigation-container > ul.dropdown > li.is-dropdown-submenu-parent.is-active > a {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.header-navigation-container ul > li > a:hover {
+	color: red;
+}
+
+/* change color of the down arrow. */
+.header-navigation-container > ul.dropdown > li.is-dropdown-submenu-parent.is-active > a::after {
+	border-color: red transparent transparent;
 }
 
 .header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a {
