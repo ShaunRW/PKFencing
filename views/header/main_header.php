@@ -1,7 +1,7 @@
 <div class="fluid header-outer-container">
 	<div class="grid-container header-main-inner-container">
 		<div class="grid-x">
-			<div class="small-3 header-logo-container"><img src="http://via.placeholder.com/256x64?text=Logo"></div>
+			<div class="small-3 align-self-middle header-logo-container"><img src="http://via.placeholder.com/256x64?text=Logo"></div>
 			<div class="small-6 align-self-middle header-navigation-container">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li><a href="#">Home</a></li>

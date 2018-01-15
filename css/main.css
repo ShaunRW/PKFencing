@@ -21,16 +21,25 @@
 	border-bottom: 3px solid #EEE;
 }
 
-.header-main-inner-container {
+/*.header-main-inner-container {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}*/
+
+.header-outer-container {
+	border-bottom: 2px solid #EEE;
 }
 
-/* main header navication */
+/* main header navigation */
 .header-navigation-container a {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: black;
+}
+
+.header-navigation-container > ul > li > a {
+	height: 6em;
+	padding-top: 20.75%;
 }
 
 .header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a {

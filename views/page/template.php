@@ -14,7 +14,7 @@
 		<?php $Application->AddComponent( "page", "header/top_contact_bar" ); ?>
 		<?php $Application->AddComponent( "page", "header/main_header" ); ?>
 
-		<?php $Application->AddComponent( "page", "content/".$Data->Page ); ?>
+		<?php $Application->AddComponent( "page", $Data->Page ); ?>
 
 		<?php $Application->AddComponent( "page", "footer/footer" ); ?>
 		<?php $Application->AddComponent( "page", "include_js" ); ?>

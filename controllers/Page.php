@@ -5,7 +5,7 @@
 		public function BuildViewData( $InputData )
 		{
 			$model = new Model_Page();
-			$model->Page = $this->RequestData( $InputData, "page", "home" );
+			$model->Page = $this->RequestData( $InputData, "page", "pages/home" );
 
 			return $model;
 		}
