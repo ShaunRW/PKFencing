@@ -1,2 +1,2 @@
-<?php $Application->AddComponent( "page", "homepage/banner" ); ?>
-<?php $Application->AddComponent( "page", "homepage/why_choose_us" ); ?>
+<?php $Application->AddComponent( "SingleBanner", "SingleBanner", array( "ImageName"=>"WoodenFenceStraight" ) ); ?>
+<?php $Application->AddComponent( "Page", "homepage/why_choose_us" ); ?>
