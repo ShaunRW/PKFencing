@@ -1,14 +1,18 @@
 
 
-/* Utility */
+/* Utility
+   ============================= */
 .grid-container.fluid.no-padding { 
 	padding-left: 0;
 	padding-right: 0;
 }
 
-/*
-	Header
-*/
+
+
+
+
+/* Header
+   ============================= */
 .top-contact-bar-outer-container .contact-bar {
 	font-size: 1.5rem;
 	color:#95969e;
@@ -16,16 +20,13 @@
 .top-contact-bar-outer-container .contact-bar span {
 	font-weight: bold;
 }
-
 .top-contact-bar-outer-container {
 	border-bottom: 3px solid #EEE;
 }
-
 /*.header-main-inner-container {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }*/
-
 .header-outer-container {
 	border-bottom: 2px solid #EEE;
 }
@@ -36,32 +37,27 @@
 	font-weight: bold;
 	color: black;
 }
-
 .header-navigation-container > ul > li > a {
 	height: 6em;
 	padding-top: 20.75%;
 	line-height: 4.6em;
 
 }
+.header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a {
+	color: black;
+}
 .header-navigation-container > ul > li > a:hover,
 .header-navigation-container > ul.dropdown > li.is-dropdown-submenu-parent.is-active > a {
 	border-bottom: 2px solid red;
 	color: red;
 }
-
 .header-navigation-container ul > li > a:hover {
 	color: red;
 }
-
 /* change color of the down arrow. */
 .header-navigation-container > ul.dropdown > li.is-dropdown-submenu-parent.is-active > a::after {
 	border-color: red transparent transparent;
 }
-
-.header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a {
-	color: black;
-}
-
 .header-navigation-container .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
 	border-color: black transparent transparent;
 }
@@ -82,20 +78,38 @@
 
 
 
-/* Footer */
+/* Footer
+   ============================= */
 .footer-outer-container {
 	background-color: #4e525d;
 }
-
 .footer-outer-container .footer-inner-container {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-
 	color: white;
 }
 
 
-/* Why choose us body content */
+
+
+/* SingleBanner
+   ============================= */
+/* Put Single Banner Content Over Single Banner Image */
+.SingleBanner .cell{
+	position: relative;
+}
+.SingleBanner .SingleBannerContent{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+
+
+
+
+/* Why Choose Us View
+   ============================= */
 .why-choose-us {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -104,25 +118,17 @@
 	color: red;
 	font-weight: bold;
 }
-
-.why-choose-us ul {
-}
-
 .why-choose-us li {
 	font-size: 1.5rem;
 	font-weight: bold;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid #EEE;
-
-	
+	border-bottom: 1px solid #EEE;	
 }
-
 .why-choose-us li span.fa {
 	color: red;
 	vertical-align: middle;
 }
-
 .why-choose-us li span.text {
 	font-family: arial;
 	text-transform: uppercase;
