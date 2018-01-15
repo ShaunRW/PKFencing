@@ -1,3 +1,5 @@
+<?php $Application->AddComponent( "SingleBanner", "SingleBanner", array( "OverlayView"=>"homepage/why_choose_us" ) ); ?>
+
 <div class="grid-container fluid no-padding page-title">
 	<div class="grid-x">
 		<div class="cell">

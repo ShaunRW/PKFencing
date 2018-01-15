@@ -6,6 +6,7 @@
 		{
 			$model = new Model_SingleBanner();
 			$model->ImageName = $this->RequestData( $InputData, "ImageName", "ColorbondFenceWithFoilage" );
+			$model->OptionalOverlayView = $this->RequestData( $InputData, "OverlayView", NULL );
 
 			return $model;
 		}

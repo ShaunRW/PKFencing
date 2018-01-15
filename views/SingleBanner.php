@@ -1,7 +1,17 @@
-<div class="grid-container fluid no-padding">
+<div class="SingleBanner grid-container fluid no-padding">
 	<div class="grid-x">
 		<div class="cell">
-			<img class="orbit-image" src="/images/<?php echo $Data->ImageName; ?>.jpg" alt="<?php echo $Data->ImageName; ?>">
+			<img class="orbit-image SingleBannerImage" src="/images/<?php echo $Data->ImageName; ?>.jpg" alt="<?php echo $Data->ImageName; ?>">
+			
+			<?php /* Optional HTML Overlay */
+				if ( isset($Data->OptionalOverlayView) )
+				{
+					echo "<div class='SingleBannerOverlay'>";
+					$Application->AddComponent( 'page', $Data->OptionalOverlayView );
+					echo "</div>";
+				}
+			?>
+
 		</div>
 	</div>
 </div>
