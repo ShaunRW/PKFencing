@@ -2,7 +2,7 @@
 	<div class="grid-x">
 		<div class="cell">
 			<!-- <img src="http://via.placeholder.com/1920x480/AFA/000?text=Banner" alt="Placeholder"/> -->
-			<img class="orbit-image" src="/images/home_banner_2.jpg" alt="Fence">
+			<img class="orbit-image" src="/images/WoodenFenceStraight.jpg" alt="Fence">
 
 			<!-- <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
 				<div class="orbit-wrapper">
