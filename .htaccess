@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^/?$ pages/home
+RewriteRule ^pages/(.*)$ index.php?controller=page&view=page/template&page=pages/$1 [L]
