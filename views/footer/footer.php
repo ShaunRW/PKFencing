@@ -8,7 +8,7 @@
 			</div>
 			<div class="cell large-4">
 				<b>ABN:</b> 12 111 222 333 | <b>License:</b> 123456<br/>
-				<b>&copy;</b> P&amp;K Fencing <span id="copywrite-year"></span>. All Rights Reserved.
+				<b>&copy;</b> Elite Fencing &amp; Landscaping <span id="copywrite-year"></span>. All Rights Reserved.
 			</div>
 		</div>
 	</div>

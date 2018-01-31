@@ -1,7 +1,7 @@
 <div class="grid-container">
 	<div class="grid-x">
 		<div class="cell why-choose-us">
-			<h2>WHY CHOOSE P&amp;K FENCING?</h2>
+			<h2>WHY CHOOSE  ELITE FENCING &amp; LANDSCAPING?</h2>
 			<ul class="no-bullet">
 				<li><span class="fa fa-thumbs-o-up fa-2x fa-fw"></span> <span class="text">We provide an efficient &amp; friendly service</span></li>
 				<li><span class="fa fa-calendar fa-2x fa-fw"></span> <span class="text">Over ? years industry knowledge &amp; experience</span></li>
